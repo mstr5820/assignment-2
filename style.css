@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+header{
+    background-image: linear-gradient(black, gray, black);
+    background-size:cover;
+}
+
+.main-btn{
+    display: flex;
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: #E6533C;
+    color: #fff;
+}
+
+.nav-logo{
+    color: #E6533C;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 650px;
+    padding-top: 60px;
+    background: transparent;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    overflow: auto;
+}
+.nav-btn{
+    border-radius: 46px;
+    background: #E6533C;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.nav-main{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* hero-section */
+.hero-title{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+}
+.main-title{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 120%;
+    padding-top: 100px;
+}
+.style-text{
+    font-family: "Miama", sans-serif;
+}
+.main-dis{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    color: #fafafa;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.download-btn{
+    display: flex;
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: transparent;
+    border-color: #FFF;
+    color: #FFF;
+}
+.main-imgs
